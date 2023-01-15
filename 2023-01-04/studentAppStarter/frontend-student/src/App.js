@@ -19,7 +19,6 @@ function App() {
   console.log('first page load, App/ Rendred');
   return (
     <div className="App">
-      <h1>Hello World</h1>
       <StudentsList studentData={students}/>
     </div>
   );
